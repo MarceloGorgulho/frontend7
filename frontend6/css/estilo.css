@@ -1,0 +1,122 @@
+#topo{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(211, 164, 102);
+    position: fixed;
+}
+.largurasite{
+    width: 900px;
+    margin: auto; 
+}
+#logo{
+    width: 140px;
+    height: 24px;
+    float: left;
+    margin-top: 3px;
+}
+#menu{
+    width: auto;
+    height: 24px;
+    line-height: 30px;
+    float: right;
+}
+#menu a{
+    color:antiquewhite;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#menu a:hover{
+    text-decoration: underline;
+    padding: 5px 5px 6px 5px;
+    background-color: rgb(214, 179, 132)
+}
+body{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace
+    
+}
+#conteudohome{
+    width: 545px;
+    float: right;
+}
+h1{
+    font-size: 40px;
+    color:brown;
+}
+p{
+    color: chocolate;
+    text-align: justify;
+    
+}
+.imghome{
+    margin-top: 15px;
+}
+.imgdestaquehome{
+    margin-top: 25px;
+}
+.imgdireita{
+    float: right;
+    margin-left: 30px;
+}
+li{
+    list-style-type: circle;
+    list-style-position: outside;
+    margin-bottom: 5px;
+    color: chocolate;
+    text-align: justify;
+}
+form{
+    color:brown;
+    font-style: italic;
+    font-weight: bold;
+}
+input[type=text]{
+    width:400px;
+    background-color: rgb(245, 235, 216);
+    border: double 1px #999;
+    margin-bottom: 5px;
+}
+textarea{
+    width: 400px;
+    height: 163px;
+    background-color: rgb(245, 235, 216);
+    border: double 1px #999;
+    resize: none;
+}
+input[type=submit]{
+    width: 100px;
+    background-color: rgb(255, 217, 168);
+    border-radius: 4px;
+    border-color: bisque;
+    border-style: groove;
+    margin-bottom: 3px;
+    
+    }
+#rodape{
+    text-align: center;
+    width: 100%;
+    float: left;
+    background-color: rgb(211, 164, 102);
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-bottom: 40px;
+}
+html{
+    background-color: rgb(247, 228, 203);
+}
+.conteudo{
+    width: 100%;
+    height: auto;
+    float: left;
+    border-bottom: 1px solid rgba(255, 155, 25, 0.4);
+    margin-top: 20px;
+    
+}
